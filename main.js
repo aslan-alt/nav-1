@@ -48,7 +48,7 @@ const render = () => {
                         // 长按事件触发  
                         timeOutEvent = setTimeout(function () {
                             timeOutEvent = 0;
-                            const user = confirm("请按按钮")
+                            const user = confirm("您确认要删除吗？")
                             if (user) {
                                 hashList.splice(index, 1)
                                 $sitList.find('li:not(.last)').remove()
@@ -105,7 +105,7 @@ const render = () => {
                         // 长按事件触发  
                         timeOutEvent = setTimeout(function () {
                             timeOutEvent = 0;
-                            const user = confirm("请按按钮")
+                            const user = confirm("您确认要删除吗？")
                             if (user) {
                                 hashList.splice(index, 1)
                                 $sitList.find('li:not(.last)').remove()
